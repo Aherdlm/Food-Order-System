@@ -1,0 +1,72 @@
+body {
+    min-height: 100vh;
+    margin-top: auto;
+    background-image:url("https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1.1em;
+} 
+.title{
+    text-align:center;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 60px;
+    font-size:40px;
+    font-family:Times New Roman;
+}
+#subbtn, #resbtn {
+    background-color:#e79702;
+    color:white; height:35px;
+    width:100px;
+    border-radius:25px;
+    padding-left: 10px;
+}
+#myForm {
+    display: inline-block;
+    text-align: left;
+    color: white;
+    padding: 45px;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-radius: 20%;
+    border: 5px rgb(255, 208, 0);
+    border-style:double;
+}
+div{
+    display: block;
+    text-align: center;
+}
+label
+{
+    padding-right: 20px;
+}
+#div1
+{
+    padding: 3px; 
+}
+#button
+{
+    text-align: center;
+}
+#Name,#Phone,#Address,#Quantity,#Item{
+  background: rgba(0, 0, 0, 0.24);
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 17px;
+  padding: 2px;
+  border-radius: 60px;  
+  color: hsla(0, 14%, 84%, 0.993);
+}
+#div1, #Item{
+    text-align: left;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 20px;
+}
+::placeholder{
+    color: hsla(0, 14%, 84%, 0.993);
+    padding-left: 10px;
+    font-size: 17px;    
+}
+#Item{
+    font-size: 15px;
+    padding: 5px;
+    background:hsla(0, 0%, 7%, 0.514);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Now!!!</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1 class="title">Place an order</h1>
+    <br>
+<div>
+    <form action="connect.php" method="post" id="myForm">
+        <div id="div1"> 
+            <label>Name:- </label>  
+            <input  id="Name" type="text" placeholder="Mauli" required name="name">
+        </div><br>
+        <div id="div1"> 
+            <label>Phone:- </label>  
+            <input id="Phone" type="tel" placeholder="Phone" required name="phone">
+        </div><br>
+        <div id="div1"> 
+            <label>Address:- </label>  
+            <input id="Address" type="text" placeholder="Enter address" required name="address">
+        </div><br>
+        <div id="div1"> 
+            <label>Select Food Item:- </label>
+            <select id="Item" placeholder="Select item" required name="item">
+                <option value="Hot and Spicy Food">Hot and Spicy Food</option>
+                <option value="Organic Food">Organic Food</option>
+                <option value="Starchy food">Starchy food</option>
+                <option value="Healthy Food">Healthy Food</option>
+                <option value="Sweets">Ice-Cream</option>
+                <option value="Drinks">Drinks</option>
+            </select>
+        </div><br>
+        <div id="div1"> 
+            <label>Quantity:- </label> 
+            <input id="Quantity" type="number" placeholder="Select Quantity" required name="quantity">
+        </div><br>
+        <p id="button">
+            <input type="Submit" id="subbtn"/>
+            <input type="Reset" id="resbtn"/>
+        </p>
+    </form>
+    
+    <script src="index1.js"></script>
+
+</div>
+</body>
+</html>
